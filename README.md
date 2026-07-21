@@ -5,7 +5,7 @@ This repository contains the code for the paper **“Manifold-Constrained Hyper-
 We study manifold-constrained hyper-connections (mHC) as parameter-efficient finetuning modules for frozen Transformer language models. Instead of only adapting weights or activations, mHC modifies the residual-stream structure around frozen OLMo-2 layers. This codebase supports several mHC variants, standard PEFT baselines, training on Tulu instruction data, held-out perplexity evaluation, and downstream benchmarking with `lm-evaluation-harness`.
 
 The paper is available at https://arxiv.org/abs/2607.18130 with BibTeX:
-'''
+```
 @misc{oldenburg2026manifoldconstrainedhyperconnectionsparameterefficientfinetuning,
       title={Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning}, 
       author={Valentijn Oldenburg and Floris de Kam and Bente Zuijdam and Lieve Eberson and Nicky van Zutphen and Stef de Wildt and Ivo Verhoeven},
@@ -15,7 +15,7 @@ The paper is available at https://arxiv.org/abs/2607.18130 with BibTeX:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2607.18130}, 
 }
-'''
+```
 
 
 ## Installation
