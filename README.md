@@ -1,6 +1,6 @@
 # Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning
 
-This repository contains the code for the paper **“Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning”**, presented at the NeurIPS 2026 [AXIOM: Foundations of Efficient Deep Learning workshop](https://axiom-neurips2026.github.io/).
+This repository contains the code for the paper **“Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning”**, presented at the NeurIPS 2026 [AXIOM: Foundations of Efficient Deep Learning](https://axiom-neurips2026.github.io/) workshop.
 
 We study manifold-constrained hyper-connections (mHC) as parameter-efficient finetuning modules for frozen Transformer language models. Instead of only adapting weights or activations, mHC modifies the residual-stream structure around frozen Transformer layers. This codebase supports several mHC variants, standard PEFT baselines, training on Tulu instruction data, held-out perplexity evaluation, and downstream benchmarking with `lm-evaluation-harness`.
 
