@@ -6,14 +6,16 @@ We study manifold-constrained hyper-connections (mHC) as parameter-efficient fin
 
 The paper is available on [arXiv](https://arxiv.org/abs/2607.18130) with BibTeX:
 ```
-@inproceedings{
-      oldenburg2026manifoldconstrained,
-      title={Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning},
-      author={Valentijn Oldenburg and Floris de Kam and Bente Zuijdam and Lieve Eberson and Nicky van Zutphen and Stef de Wildt and Ivo Verhoeven and Cees G. M. Snoek},
-      booktitle={AXIOM: Foundations of Efficient Deep Learning},
-      year={2026},
-      url={https://openreview.net/forum?id=IboIDwwLWW}
-}, 
+@inproceedings{oldenburg2026manifoldconstrained,
+  title         = {Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning},
+  author        = {Oldenburg, Valentijn and de Kam, Floris and Zuijdam, Bente and Eberson, Lieve and van Zutphen, Nicky and de Wildt, Stef and Verhoeven, Ivo and Snoek, Cees G. M.},
+  booktitle     = {AXIOM: Foundations of Efficient Deep Learning},
+  year          = {2026},
+  eprint        = {2607.18130},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://openreview.net/forum?id=IboIDwwLWW}
+}
 ```
 
 
