@@ -1,20 +1,19 @@
 # Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning
 
-This repository contains the code for the paper **“Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning”**.
+This repository contains the code for the paper **“Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning”**, published at the NeurIPS 2026 [AXIOM: Foundations of Efficient Deep Learning workshop](https://axiom-neurips2026.github.io/).
 
-We study manifold-constrained hyper-connections (mHC) as parameter-efficient finetuning modules for frozen Transformer language models. Instead of only adapting weights or activations, mHC modifies the residual-stream structure around frozen OLMo-2 layers. This codebase supports several mHC variants, standard PEFT baselines, training on Tulu instruction data, held-out perplexity evaluation, and downstream benchmarking with `lm-evaluation-harness`.
+We study manifold-constrained hyper-connections (mHC) as parameter-efficient finetuning modules for frozen Transformer language models. Instead of only adapting weights or activations, mHC modifies the residual-stream structure around frozen Transformer layers. This codebase supports several mHC variants, standard PEFT baselines, training on Tulu instruction data, held-out perplexity evaluation, and downstream benchmarking with `lm-evaluation-harness`.
 
-The paper is available at https://arxiv.org/abs/2607.18130 with BibTeX:
+The paper is available on [arXiv](https://arxiv.org/abs/2607.18130) with BibTeX:
 ```
-@misc{oldenburg2026manifoldconstrainedhyperconnectionsparameterefficientfinetuning,
-      title={Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning}, 
-      author={Valentijn Oldenburg and Floris de Kam and Bente Zuijdam and Lieve Eberson and Nicky van Zutphen and Stef de Wildt and Ivo Verhoeven},
+@inproceedings{
+      oldenburg2026manifoldconstrained,
+      title={Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning},
+      author={Valentijn Oldenburg and Floris de Kam and Bente Zuijdam and Lieve Eberson and Nicky van Zutphen and Stef de Wildt and Ivo Verhoeven and Cees G. M. Snoek},
+      booktitle={AXIOM: Foundations of Efficient Deep Learning},
       year={2026},
-      eprint={2607.18130},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2607.18130}, 
-}
+      url={https://openreview.net/forum?id=IboIDwwLWW}
+}, 
 ```
 
 
